@@ -4,8 +4,6 @@ type range =
     | Descending
     | Invalid
 
-(* Check for too many arguments *)
-
 (* Parse arguments *)
 let parse_arguments a b =
     let int_a = int_of_string_opt a in
